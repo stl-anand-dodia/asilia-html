@@ -1,0 +1,71 @@
+/*START: font css */
+@font-face {
+  font-family: 'AvenirNextLTPro-Regular';
+  src: url('../fonts/AvenirNextLTPro-Regular.eot?#iefix') format('embedded-opentype'),  url('../fonts/AvenirNextLTPro-Regular.otf')  format('opentype'),
+       url('../fonts/AvenirNextLTPro-Regular.woff') format('woff'), url('../fonts/AvenirNextLTPro-Regular.ttf')  format('truetype'), url('../fonts/AvenirNextLTPro-Regular.svg#AvenirNextLTPro-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'AvenirNextLTPro-Demi';
+  src: url('../fonts/AvenirNextLTPro-Demi.eot?#iefix') format('embedded-opentype'),  url('../fonts/AvenirNextLTPro-Demi.otf')  format('opentype'),
+	     url('../fonts/AvenirNextLTPro-Demi.woff') format('woff'), url('../fonts/AvenirNextLTPro-Demi.ttf')  format('truetype'), url('../fonts/AvenirNextLTPro-Demi.svg#AvenirNextLTPro-Demi') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'AvenirNextLTPro-Bold';
+  src: url('../fonts/AvenirNextLTPro-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/AvenirNextLTPro-Bold.otf')  format('opentype'),
+	     url('../fonts/AvenirNextLTPro-Bold.woff') format('woff'), url('../fonts/AvenirNextLTPro-Bold.ttf')  format('truetype'), url('../fonts/AvenirNextLTPro-Bold.svg#AvenirNextLTPro-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/*END: font css */
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0 none;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, address, mainimage, container {
+  display: block;
+}
+
+html, body {
+  background-color: #fff;
+  color: #FFF;
+  font-family: 'AvenirNextLTPro-Regular';
+  font-size: 18px;
+  text-align: center;
+}
+
+a:link, a:visited, a:hover, a:focus {
+  text-decoration: none;
+  color: #FFF;
+}
+
+header {
+  padding: 20px 20px 20px 20px; 
+  min-height: 244px;
+}
+header .logo-image {
+  margin: 0 auto;
+}
+header .header-text {
+  color: #000;
+  text-transform: uppercase;
+  font-size: 36px;
+  margin: 30px 0px 0px 0px;
+}
+
+footer {
+  background-color: #95A962;
+  padding: 30px 20px;
+}
+footer .footer-title-sm, footer .footer-title{
+  text-transform: uppercase;
+  font-size: 26px;
+}
+footer .footer-title{
+  margin: 10px 0px;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'/>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Asilia</title>
+    <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header start here -->
+        <header class="header" id="header">
+            <img class="logo-image" src="images/asilia-logo.jpg" width="300" height="165">
+            <div class="header-text">Coming Soon</div>
+        </header>
+        <!-- Header end here -->
+        <!-- footer section start here -->
+        <footer id="footer">
+            <div class="footer-title-sm">For Inquiry</div>
+            <div class="footer-title">Asilia home health care</div>
+            <div class="footer-address">
+                Address: 3rd Floor, Heritage Complex<br>
+                Near The Grand Bhagwati Hotel, Sarkhej - Gandhinagar Highway,<br>
+                Bodakdev, Ahmedabad, Gujarat 380054
+            </div>
+            <div class="footer-phone-number">Phone: <a href="tel:079 3011 3111">079 3011 3111</a></div>
+            <div class="footer-phone-number">Email: <a target="_blank" href="mailto:info@asiliahomehealth.com">info@asiliahomehealth.com</a></div>
+        </footer>
+        <!-- footer section end here -->
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript">
+        function headerHeight(){
+            var windowH = $(window).height();
+            var footerH = $('#footer').innerHeight();
+            var finalH = windowH - footerH - 40;console.log(windowH);
+            $('#header').height(finalH);
+        }
+        $(document).ready(function(){
+           headerHeight(); 
+        });
+        $(window).resize(function(e){
+           headerHeight(); 
+        });
+    </script>
+</body>
+</html>
