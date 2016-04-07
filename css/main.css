@@ -37,6 +37,7 @@ html, body {
   font-family: 'AvenirNextLTPro-Regular';
   font-size: 18px;
   text-align: center;
+  overflow-x: hidden;
 }
 
 a:link, a:visited, a:hover, a:focus {
@@ -45,8 +46,14 @@ a:link, a:visited, a:hover, a:focus {
 }
 
 header {
-  padding: 20px 20px 20px 20px; 
+  padding: 20px 0px 20px 0px; 
   min-height: 244px;
+  display: table;
+  width: 100%;
+}
+.headertablecell{
+    display: table-cell;
+    vertical-align: middle;
 }
 header .logo-image {
   margin: 0 auto;
